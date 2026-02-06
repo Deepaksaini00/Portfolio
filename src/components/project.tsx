@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 import { TfiArrowTopRight } from "react-icons/tfi";
 import { HiOutlineArrowRight } from "react-icons/hi";
 import friend from "../assets/friend.png";
@@ -19,7 +20,7 @@ const projects: Project[] = [
     title: "Friend Finder",
     description:
       "A full-stack social app that lets users connect based on location and interests. Built with SvelteKit, FastAPI, and SQLite. Features real-time chat, location sharing via Leaflet.js, and secure authentication.",
-    link: "https://friends.nkit.dev/",
+    link: "https://friends.new.nkit.dev/",
     image: friend,
     tech: ["SvelteKit", "FastAPI", "leaflet.js", "Ts"],
   },
@@ -107,14 +108,14 @@ const Projects: React.FC = () => {
 
         <div className="mt-10 sm:mt-14">
           <div className="w-auto group inline-block relative">
-            <a
-              href="/allprojects"
+            <Link
+              to="/allprojects"
               className="inline-flex items-center gap-2 px-2 py-2 text-white hover:border-l-2 border-teal-300 hover:text-teal-300 transition"
             >
               <span className="font-semibold text-lg">View All Projects</span>
               <HiOutlineArrowRight className="text-lg transition-transform group-hover:translate-x-2" />
               <span className="absolute left-0 bottom-0 h-0.5 w-0 bg-teal-400 transition-all duration-300 group-hover:w-full mt-1"></span>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
