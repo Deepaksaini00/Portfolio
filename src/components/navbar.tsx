@@ -30,7 +30,7 @@ const Navbar: React.FC = () => {
       </div>
       <div className="flex flex-col items-start justify-start w-full max-w-[90%] sm:max-w-[90%]">
         <h1 className="hidden sm:block text-4xl sm:pt-3 sm:text-4xl lg:text-5xl font-bold text-slate-200">
-          <a href="/">Deepak Saini</a>
+          <a href="/">Deepak Kumar Saini</a>
         </h1>
         <p className="text-base sm:text-lg text-teal-400 mt-10">
           Software Developer 
