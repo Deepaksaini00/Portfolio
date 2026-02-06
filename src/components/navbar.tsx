@@ -28,8 +28,8 @@ const Navbar: React.FC = () => {
           {isOpen ? <HiX /> : <HiMenu />}
         </button>
       </div>
-      <div className="flex flex-col items-start justify-start w-full max-w-[90%] sm:max-w-[90%]">
-        <h1 className="hidden sm:block text-4xl sm:pt-3 sm:text-4xl lg:text-5xl font-bold text-slate-200">
+      <div className="flex flex-col items-start justify-start w-full max-w-[90%] sm:max-w-[99%]">
+        <h1 className="hidden sm:block text-1xl sm:pt-3 sm:text-2xl lg:text-4xl font-bold text-slate-200">
           <a href="/">Deepak Kumar Saini</a>
         </h1>
         <p className="text-base sm:text-lg text-teal-400 mt-10">
