@@ -10,6 +10,27 @@ const projects = [
       text: "friends.nkit.dev ↗",
     },
   },
+
+  {
+    year: "2025",
+    name: "Password Manager- CLI",
+    techStack: ["Python", "SQL", "Shell"],
+    link: {
+      href: "https://github.com/Deepaksaini00/Password-Manager",
+      text: "GitHub ↗",
+    },
+  },
+
+  {
+    year: "2025",
+    name: "Deep Launcher",
+    techStack: ["Flutter", "Android", "Dart"],
+    link: {
+      href: "https://github.com/Deepaksaini00/deep-launcher",
+      text: "GitHub ↗",
+    },
+  },
+
   {
     year: "2025",
     name: "Portfolio",
